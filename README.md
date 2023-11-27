@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido no Bootcamp Ignite (trilha 2022) na Rocketseat focado em estudar os seguintes conceitos do Reactjs:
 
-Currently, two official plugins are available:
+- Consumo de APIs, como fazer requisições entre o back-end e front-end da nossa aplicação utilizando o React
+- Performance, verificar como nossos componentes estão se comportando dadas novas atualizações
+- Formulários
+- Acessibilidade
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Used Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<div style="display:inline-block">
+  <img align="center" alt="vite" height="24" width="24" src="https://vitejs.dev/logo.svg" style="margin-right:4px;">
+  <img align="center" alt="reactjs" height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" style="margin-right:4px;">
+  <img align="center" alt="javascript" height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" style="margin-right:4px;">
+  <img align="center" alt="typescript" height="24" width="24" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" style="margin-right:4px;">
+  <img align="center" alt="styled components" height="24" width="24" src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" style="margin-right:4px;">
+</div>
