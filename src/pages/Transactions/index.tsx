@@ -33,7 +33,11 @@ export function Transactions() {
                         </tr>
                         <tr>
                             <td width="50%">Aluguel do apartamento</td>
-                            <td>- R$ 1.200,00</td>
+                            <td>
+                                <PriceHighlight variant="outcome">
+                                 - R$ 1.200,00
+                                </PriceHighlight>
+                            </td>
                             <td>Casa</td>
                             <td>27/03/2022</td>
                         </tr>
